@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>my pinata</title>
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/body.css">
+    <script src="https://kit.fontawesome.com/ecac98b95e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <div class="header">
+        <div class="left-section">
+            <a href="index.html">
+            <img class="logo" src="image/mapinata.jpg">
+            </a>
+        </div>
+
+        <div class="middle-section">
+            <input class="search-bar" type="text" placeholder="SEARCH">
+            <button class="search-button">
+                <img class="search-img" src="image/search-icon.svg">
+            </button>
+        </div>
+
+        <div class="right-section">
+            <button class="user-button">
+                <img class="user-icon" src="image/user-icon.png">
+            </button>
+            <button class="user-button">
+                <img class="user-icon" src="image/heart-icon.png">
+            </button>
+            <button class="user-button">
+                <img class="user-icon" src="image/cart-icon.png">
+            </button>
+
+
+        </div>
+    </div>
+
+    <div class="menu">
+        <div class="left-menu">
+            <ul class="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about-us.html">About Us</a></li>
+                <li class="dropdown">
+                    <a href="#">Shop</a>
+                   
+                    <div class="dropdown">
+                        <a href="pinata.html">Pinata</a>
+                        <a href="birthdays.html">Birtdays Themes</a>
+                        <a href="candles.html">Candles</a>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+
+        <div class="right-menu">
+            <ul class="navbar">
+                <li><a onclick="showNamePrompt()">Sign Up</a>
+            </ul>
+        </div>
+    </div>
+    <div class="mainimg">
+        <img class="bday-img" src="image/riad-birthday1.jpg">
+
+        <div class="text-on-img">
+            <div>
+                <h1 class="main-img-header">Design Your Birthday</h1>
+            </div>
+            <div>
+                <p class="main-img-p">
+                    Shop by themes for the perfect choice!
+                </p>
+                <div style="text-align: center;
+                height: 20px;
+                padding-top: 3vw;">
+                    <a href="birthdays.html" class="main-img-button">SHOP NOW</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+        <h1 class="christmas-header">Christmas Best Selling</h1>
+        <div class="christmas-best-selling-grid">
+            <div class="cbs-elt1">
+                <div>
+                    <img class="cbs-elt1-img" src="pinatas/santa-dress.png" alt="green-tree">
+                </div>
+                <div class="shop-list-content">
+                    <p class="shop-list-product-name">Santa Dress</p>
+                    <div class="shop-list-product-price">$18</div>
+                  
+                </div>
+               <div class="shop-list-view-product-style"><a onclick="displayData(1)" class="shop-list-view-product">ADD TO CART</a>
+            
+                </div>
+            </div>
+
+            <div class="cbs-elt1">
+                <div>
+                    <img class="cbs-elt1-img" src="image/mug.jpg" alt="green-tree">
+                </div>
+                <div class="shop-list-content">
+                    <p class="shop-list-product-name">Custom Printed Mug</p>
+                    <div class="shop-list-product-price">$6</div>
+                </div>
+                <div class="shop-list-view-product-style"><a onclick="displayData(2)" class="shop-list-view-product">ADD TO CART</a>
+            
+                </div>
+            </div>
+
+            <div class="cbs-elt1">
+                <div>
+                    <img class="cbs-elt1-img" src="pinatas/elf-dress.png" alt="green-tree">
+                </div>
+                <div class="shop-list-content">
+                    <p class="shop-list-product-name">Elf Dress</p>
+                    <div class="shop-list-product-price">$18</div>
+                </div>
+                <div class="shop-list-view-product-style"><a onclick="displayData(3)" class="shop-list-view-product">ADD TO CART</a>
+                </div>
+            </div>
+
+            <div class="cbs-elt1">
+                <div>
+                    <img class="cbs-elt1-img" src="pinatas/custom-xmas-name.png" alt="green-tree">
+                </div>
+                <div class="shop-list-content">
+                    <p class="shop-list-product-name">Custom Xmas Name</p>
+                    <div class="shop-list-product-price">$6</div>
+                </div>
+                <div class="shop-list-view-product-style"><a onclick="displayData(4)" class="shop-list-view-product">ADD TO CART</a>
+                </div>
+            </div>
+        </div>
+
+        <h1 class="christmas-header">WEEKLY DEALS</h1>
+        <div class="christmas-best-selling-grid">
+            <div class="cbs-elt1">
+                <div>
+                    <img class="cbs-elt1-img" src="pinatas/pinata/tutu&tshirt.png" alt="green-tree">
+                </div>
+                <div class="shop-list-content">
+                    <p class="shop-list-product-name">Custom Girl tutu skirt & Tshirt</p>
+                    <div class="shop-list-product-price">$25</div>
+                </div>
+                <div class="shop-list-view-product-style"><a onclick="displayData(5)" class="shop-list-view-product">ADD TO CART</a>
+            
+                </div>
+            </div>
+
+            <div class="cbs-elt1">
+                <div>
+                    <img class="cbs-elt1-img" src="pinatas/pinata/boy-tshirt.png" alt="green-tree">
+                </div>
+                <div class="shop-list-content">
+                    <p class="shop-list-product-name">Custom Boy Tshirt</p>
+                    <div class="shop-list-product-price">$6</div>
+                </div>
+                <div class="shop-list-view-product-style"><a onclick="displayData(6)" class="shop-list-view-product">ADD TO CART</a>
+                </div>
+            </div>
+
+            <div class="cbs-elt1">
+                <div>
+                    <img class="cbs-elt1-img" src="pinatas/pinata/custom-baby-frame.png" alt="green-tree">
+                </div>
+                <div class="shop-list-content">
+                    <p class="shop-list-product-name">Custom Baby frame theme</p>
+                    <div class="shop-list-product-price">$10</div>
+                </div>
+                <div class="shop-list-view-product-style"><a onclick="displayData(7)" class="shop-list-view-product">ADD TO CART</a>
+                </div>
+            </div>
+
+            <div class="cbs-elt1">
+                <div>
+                    <img class="cbs-elt1-img" src="pinatas/pinata/round-pinata.png" alt="green-tree">
+                </div>
+                <div class="shop-list-content">
+                    <p class="shop-list-product-name">Custom Round Pinatas Sale</p>
+                    <div class="shop-list-product-price">$9</div>
+                </div>
+                <div class="shop-list-view-product-style"><a onclick="displayData(8)" class="shop-list-view-product">ADD TO CART</a>
+                </div>
+            </div>
+
+            
+        </div>
+
+        <div class="view-more-style"><a href="pinata.html" class="view-more">VIEW MORE</a></div>
+
+
+        <footer>
+            <div class="footer-content">
+
+                <div>
+                    <a href="index.html">
+                        <img class="logo" src="image/logo.png" alt="ma pinata">
+                    </a>
+                </div>
+                
+                <div class="social-media">
+                    <a href="https://www.facebook.com/people/Ma-Pinata-by-Khawla/100067111735189/"><i class="fa-brands fa-facebook fa-2xl" style="color: #005eff;"></i></a>
+                    <a href="https://wa.me/+96179138325"><i class="fa-brands fa-whatsapp fa-2xl" style="color: #11ff00;"></i></a>
+                    <a href="https://www.instagram.com/mapinata_by_khawla/"><i class="fa-brands fa-instagram fa-2xl" style="color: #ff5900;"></i></a>
+                </div>
+
+                <div class="contact-info">
+                    <p>Email: royfahel@gmail.com</p>
+                    <p>Phone: +961 79 138 325
+                    </p>
+                    <p>Address: Jdideh el joumeh, Akkar</p>
+                </div>
+            </div>
+
+            <div class="additional-info">
+                <p>&copy; 2023 My Pinata. All rights reserved.</p>
+            </div>
+        </footer>
+
+
+</body>
+
+
+
+<script>
+    
+    function showNamePrompt() {
+      var userName = prompt('Please enter your name:');
+      var password = prompt('Please enter your password:');
+
+      if (userName && password) {
+        alert('Hello, ' + userName + '! Welcome to our page!');
+      } else {
+        alert('Invalid credentials. Please try again.');
+      }
+    }
+      
+    
+
+    function displayData(itemNumber) {
+        var itemName = document.querySelector('.cbs-elt1:nth-child(' + itemNumber + ') .shop-list-product-name').innerText;
+        var itemPrice = document.querySelector('.cbs-elt1:nth-child(' + itemNumber + ') .shop-list-product-price').innerText;
+
+        var queryString = '?name=' + encodeURIComponent(itemName) + '&price=' + encodeURIComponent(itemPrice);
+
+        window.location.href = 'newpage.html' + queryString;
+    }
+</script>
+</html>
