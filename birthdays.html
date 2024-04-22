@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>birthdays</title>
+</head>
+
+<body>
+    <link rel="stylesheet" href="styles/birthdays-style.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <script src="https://kit.fontawesome.com/ecac98b95e.js" crossorigin="anonymous"></script>
+
+    <div class="header">
+        <div class="left-section">
+            <a href="index.html">
+                <img class="logo" src="image/mapinata.jpg">
+                </a>
+        </div>
+
+        <div class="middle-section">
+            <input class="search-bar" type="text" placeholder="SEARCH">
+            <button class="search-button">
+                <img class="search-img" src="image/search-icon.svg">
+            </button>
+        </div>
+
+        <div class="right-section">
+            <button class="user-button">
+                <img class="user-icon" src="image/user-icon.png">
+            </button>
+            <button class="user-button">
+                <img class="user-icon" src="image/heart-icon.png">
+            </button>
+            <button class="user-button">
+                <img class="user-icon" src="image/cart-icon.png">
+            </button>
+
+
+        </div>
+    </div>
+
+    <div class="collection-page-width">
+        <div class="collection-text-wrapper">
+            <h1 class="collection-title">BIRTHDAY THEMES</h1>
+            <div class="collection-decription">Embark on a journey of celebration with our enchanting birthday themes.
+                From vibrant colors to thematic wonders, our curated collection promises to elevate your special day.
+                Immerse yourself in the magic, where each theme turns moments into memorable adventures.
+                Choose joy, choose our birthday themes.
+            </div>
+        </div>
+    </div>
+    <div class="product-grid-padding">
+        <div class="filters-form">
+            <div class="filters">
+                <p class="filters-label">
+                    <label for="sortby">Sort by:</label>
+                </p>
+            </div>
+            <div class="select">
+                <select style="border: none;
+                font-size: 0.8em;
+                font-weight: 400;">
+                    <option>alphabetically, A-Z</option>
+                    <option>alphabetically, Z-A</option>
+                    <option>Price, low to high</option>
+                    <option>Price, high to low</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="navigator">
+            <div class="navigator-left">
+                <a href="pinata.html" class="pinata">Pinata</a>
+            </div>
+            <div class="navigator-middle">
+                <a href="birthdays.html" class="birthdays">Birtdays/Themes</a>
+            </div>
+            <div class="navigator-right">
+                <a href="candles.html" class="candles">Candles</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="christmas-best-selling-grid">
+        <div class="cbs-elt1">
+            <div>
+                <img class="cbs-elt1-img" src="pinatas/themes/1st-holy-communion.jpg" alt="green-tree">
+            </div>
+            <div class="shop-list-content">
+                <p class="shop-list-product-name">First Holy communion</p>
+                <div class="shop-list-product-price">$150</div>
+              
+            </div>
+           <div class="shop-list-view-product-style"><a onclick="displayData(1)" class="shop-list-view-product">ADD TO CART</a>
+        
+            </div>
+        </div>
+
+        <div class="cbs-elt1">
+            <div>
+                <img class="cbs-elt1-img" src="pinatas/themes/frozen-theme.png" alt="green-tree">
+            </div>
+            <div class="shop-list-content">
+                <p class="shop-list-product-name">Frozen Theme</p>
+                <div class="shop-list-product-price">$80</div>
+            </div>
+            <div class="shop-list-view-product-style"><a onclick="displayData(2)" class="shop-list-view-product">ADD TO CART</a>
+        
+            </div>
+        </div>
+
+        <div class="cbs-elt1">
+            <div>
+                <img class="cbs-elt1-img" src="pinatas/themes/girl-pink-theme.png" alt="green-tree">
+            </div>
+            <div class="shop-list-content">
+                <p class="shop-list-product-name">Girl Pink Birthday Theme</p>
+                <div class="shop-list-product-price">$70</div>
+            </div>
+            <div class="shop-list-view-product-style"><a onclick="displayData(3)" class="shop-list-view-product">ADD TO CART</a>
+            </div>
+        </div>
+
+        <div class="cbs-elt1">
+            <div>
+                <img class="cbs-elt1-img" src="pinatas/themes/paw-patrol-theme.png" alt="green-tree">
+            </div>
+            <div class="shop-list-content">
+                <p class="shop-list-product-name">Paw Patrol Theme</p>
+                <div class="shop-list-product-price">$200</div>
+            </div>
+            <div class="shop-list-view-product-style"><a onclick="displayData(4)" class="shop-list-view-product">ADD TO CART</a>
+            </div>
+        </div>
+
+        <div class="cbs-elt1">
+            <div>
+                <img class="cbs-elt1-img" src="pinatas/themes/mermaid-theme.png" alt="green-tree">
+            </div>
+            <div class="shop-list-content">
+                <p class="shop-list-product-name">Mermaid Theme</p>
+                <div class="shop-list-product-price">$130</div>
+              
+            </div>
+           <div class="shop-list-view-product-style"><a onclick="displayData(5)" class="shop-list-view-product">ADD TO CART</a>
+        
+            </div>
+        </div>
+
+        <div class="cbs-elt1">
+            <div>
+                <img class="cbs-elt1-img" src="pinatas/themes/wilderness-theme.png" alt="green-tree">
+            </div>
+            <div class="shop-list-content">
+                <p class="shop-list-product-name">Wilderness theme</p>
+                <div class="shop-list-product-price">$60</div>
+            </div>
+            <div class="shop-list-view-product-style"><a onclick="displayData(6)" class="shop-list-view-product">ADD TO CART</a>
+        
+            </div>
+        </div>
+
+        <div class="cbs-elt1">
+            <div>
+                <img class="cbs-elt1-img" src="pinatas/themes/minecraft-theme.png" alt="green-tree">
+            </div>
+            <div class="shop-list-content">
+                <p class="shop-list-product-name">Minecraft Theme</p>
+                <div class="shop-list-product-price">$90</div>
+            </div>
+            <div class="shop-list-view-product-style"><a onclick="displayData(7)" class="shop-list-view-product">ADD TO CART</a>
+            </div>
+        </div>
+
+        <div class="cbs-elt1">
+            <div>
+                <img class="cbs-elt1-img" src="pinatas/themes/princesses-theme.png" alt="green-tree">
+            </div>
+            <div class="shop-list-content">
+                <p class="shop-list-product-name">Princesses Theme</p>
+                <div class="shop-list-product-price">$150</div>
+            </div>
+            <div class="shop-list-view-product-style"><a onclick="displayData(8)" class="shop-list-view-product">ADD TO CART</a>
+            </div>
+        </div>
+
+        <div class="cbs-elt1">
+            <div>
+                <img class="cbs-elt1-img" src="pinatas/themes/prom-theme.png" alt="green-tree">
+            </div>
+            <div class="shop-list-content">
+                <p class="shop-list-product-name">Prom Theme Arrangement</p>
+                <div class="shop-list-product-price">$70</div>
+            </div>
+            <div class="shop-list-view-product-style"><a onclick="displayData(9)" class="shop-list-view-product">ADD TO CART</a>
+            </div>
+        </div>
+
+        <div class="cbs-elt1">
+            <div>
+                <img class="cbs-elt1-img" src="pinatas/themes/baptism-theme.png" alt="green-tree">
+            </div>
+            <div class="shop-list-content">
+                <p class="shop-list-product-name">Baptism Theme</p>
+                <div class="shop-list-product-price">$120</div>
+            </div>
+            <div class="shop-list-view-product-style"><a onclick="displayData(10)" class="shop-list-view-product">ADD TO CART</a>
+            </div>
+        </div>
+
+        <div class="cbs-elt1">
+            <div>
+                <img class="cbs-elt1-img" src="pinatas/themes/ballerina-theme.png" alt="green-tree">
+            </div>
+            <div class="shop-list-content">
+                <p class="shop-list-product-name">Ballernina Theme</p>
+                <div class="shop-list-product-price">$50</div>
+            </div>
+            <div class="shop-list-view-product-style"><a onclick="displayData(11)" class="shop-list-view-product">ADD TO CART</a>
+            </div>
+        </div>
+
+        <div class="cbs-elt1">
+            <div>
+                <img class="cbs-elt1-img" src="pinatas/themes/football-theme.png" alt="green-tree">
+            </div>
+            <div class="shop-list-content">
+                <p class="shop-list-product-name">Football Theme</p>
+                <div class="shop-list-product-price">$100</div>
+            </div>
+            <div class="shop-list-view-product-style"><a onclick="displayData(12)" class="shop-list-view-product">ADD TO CART</a>
+            </div>
+        </div>
+
+        
+
+        
+    </div>
+
+    
+
+    <footer>
+        <div class="footer-content">
+
+            <div>
+                <a href="index.html">
+                    <img class="logo" src="image/logo.png" alt="ma pinata">
+                </a>
+            </div>
+            
+            <div class="social-media">
+                <a href="https://www.facebook.com/people/Ma-Pinata-by-Khawla/100067111735189/"><i class="fa-brands fa-facebook fa-2xl" style="color: #005eff;"></i></a>
+                    <a href="https://wa.me/+96179138325"><i class="fa-brands fa-whatsapp fa-2xl" style="color: #11ff00;"></i></a>
+                    <a href="https://www.instagram.com/mapinata_by_khawla/"><i class="fa-brands fa-instagram fa-2xl" style="color: #ff5900;"></i></a>
+            </div>
+
+            <div class="contact-info">
+                <p>Email: royfahel@gmail.com</p>
+                <p>Phone: +961 79 138 325
+                </p>
+                <p>Address: Jdideh el joumeh, Akkar</p>
+            </div>
+        </div>
+
+        <div class="additional-info">
+            <p>&copy; 2023 My Pinata. All rights reserved.</p>
+        </div>
+    </footer>
+    
+</body>
+<script>
+    function displayData(itemNumber) {
+        // Get the data of the selected item
+        var itemName = document.querySelector('.cbs-elt1:nth-child(' + itemNumber + ') .shop-list-product-name').innerText;
+        var itemPrice = document.querySelector('.cbs-elt1:nth-child(' + itemNumber + ') .shop-list-product-price').innerText;
+
+        // Create a query string with the data
+        var queryString = '?name=' + encodeURIComponent(itemName) + '&price=' + encodeURIComponent(itemPrice);
+
+        // Navigate to a new page with the data
+        window.location.href = 'newpage.html' + queryString;
+    }
+</script>
+
+</html>
