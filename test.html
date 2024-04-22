@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+
+        .navbar {
+            background-color: #333;
+            overflow: hidden;
+            width: 100px;
+        }
+
+        .navbar button {
+            background-color: #333;
+            color: white;
+            border: none;
+            padding: 14px 16px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .navbar button:hover {
+            background-color: grey;
+        }
+
+        .dropdown {
+            float: left;
+            overflow: hidden;
+            display: none;
+        }
+
+        .dropdown ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .dropdown li {
+            display: block;
+        }
+
+        .dropdown a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .navbar:hover .dropdown {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+<div class="navbar">
+    <button>Quizzes</button>
+    <div class="dropdown">
+        <ul>
+            <li><a href="#">Link 1</a></li>
+            <li><a href="#">Link 2</a></li>
+            <li><a href="#">Link 3</a></li>
+            <li><a href="#">Link 4</a></li>
+            <li><a href="#">Link 5</a></li>
+        </ul>
+    </div>
+</div>
+
+</body>
+</html>
